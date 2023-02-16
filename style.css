@@ -3,10 +3,12 @@
 :root{ /** here we define the property so that we can use whenever we want  **/
     --primary-color: rgb(26, 244, 236);
     --dark-gray:#64748b;
+    --off-white:#cbd5e1;
 }
 
 body{
     font-family: 'Montserrat', sans-serif;
+    margin:0px;
 
 }
 hr{
@@ -91,5 +93,41 @@ hr{
 
 }
 .hero .hero-heading{
+    text-align: center;
+    padding-top: 1rem;
    color:var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted{
+    color:var(--primary-color);
+}
+
+/** section **/
+
+.section{
+    padding:2rem;
+}
+.section h1{
+text-align: center;
+padding:2rem;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+/** footer **/
+
+.footer{
+    background-color: var(--primary-color);
+    padding:2rem 1rem;
+    text-align: center;
+    
+    color:white;
+    font-weight: bold;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color:white;
 }

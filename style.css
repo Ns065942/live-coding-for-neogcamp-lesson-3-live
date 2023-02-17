@@ -28,22 +28,24 @@ hr{
 
 /** links **/
 .link{
-    text-decoration: none;
+   text-decoration: none;
     padding:0.5rem 1rem;
+    
 }
 .link-primary{
-    text-decoration: none;
+  text-decoration: none;
     background-color:var(--primary-color);
     border-radius: 0.5rem;
     color: blue;
    
+   
 }
 .link-secondary{
     text-decoration: none;
-    background-color: whitesmoke;
+    background-color: white;
     color: blue;
     border-radius: 0.5rem;
-    border: 1px solid var(--primary-color)
+    border: 2px solid var(--primary-color)
 }
 
 /** lists **/
@@ -123,11 +125,19 @@ padding:2rem;
     padding:2rem 1rem;
     text-align: center;
     
-    color:white;
-    font-weight: bold;
-    border-top-right-radius: 1rem;
+   
+    font-weight:bolder;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.footer .footer-header{
+
+    color:blue;
+    font-weight:bolder;
+    font-size: larger;
 }
 
 .footer .link{
-    color:white;
+    color:blue;
 }
